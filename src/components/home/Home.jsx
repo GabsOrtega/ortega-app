@@ -10,9 +10,8 @@ const Home = () => {
             <div className="home__content grid">
               <Social/>
 
-              <div className="home__img">
+              <div className="home__img"></div>
                 <Data />
-              </div>
             </div>
         </div>
     </section>
