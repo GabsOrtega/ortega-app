@@ -3,9 +3,9 @@ import "./footer.css";
 
 const Footer = () => {
     return (
-        <footer className="fpp">
+        <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title"></h1>
+                <h1 className="footer__title">Ortega</h1>
 
                 <ul className="footer__list">
                     <li>
@@ -13,11 +13,11 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="footer__link">Projects</a>
+                        <a href="#services" className="footer__link">Services</a>
                     </li>
 
                     <li>
-                        <a href="#testimonials" className="footer__link">Testmonials</a>
+                        <a href="#projects" className="footer__link">Projects</a>
                     </li>
                 </ul>
 
