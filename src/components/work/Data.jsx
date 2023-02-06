@@ -1,7 +1,7 @@
 import Work1 from "../../assets/img/vnom_work.png";
 import Work2 from "../../assets/img/criptphy_work.png";
 
-export const projectsData = projectsData = [
+export const projectsData =  [
     {
       id: 1,
       image: Work1,
@@ -23,10 +23,7 @@ export const projectsNav = [
     {
         name: 'web',
     },
-    {
-        name: 'app',
-    },
-    {
-        name: 'design',
-    },
+    // {
+    //     name: 'app',
+    // },
 ];
