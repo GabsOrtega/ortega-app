@@ -7,12 +7,14 @@ export const projectsData =  [
       image: Work1,
       title: "VNOM - Serviços e Pessoas",
       category: "web",
+      link: "https://github.com/VNOM-corporation",
     },
     {
       id: 2,
       image: Work2,
       title: "Criptphy",
       category: "web",
+      link: "https://github.com/Criptphy",
     },
 ];
 

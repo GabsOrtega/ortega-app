@@ -28,33 +28,30 @@ const Services = () => {
 
                         <h3 className="services__modal-title">Web development back-end</h3>
 
-                        <p className="services__modal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p className="services__modal-description">I develop the backend of a web application, ensuring security and comfort for the user.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface</p>
+                                <p className="services__modal-info">Connection from the back-end to the front-end.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development</p>
+                                <p className="services__modal-info">Register and Login.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions</p>
+                                <p className="services__modal-info">User data safe and encryption.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
+                                <p className="services__modal-info">Maintenance back-end</p>
                             </li>
 
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
-                            </li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -74,7 +71,7 @@ const Services = () => {
 
                         <h3 className="services__modal-title">Desktop apps development</h3>
 
-                        <p className="services__modal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="services__modal-description">I develop software for the desktop plataform in order to make people's lives easier or more fun.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -84,23 +81,19 @@ const Services = () => {
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development</p>
+                                <p className="services__modal-info">Register and Login</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions</p>
+                                <p className="services__modal-info">Connection from the back-end to the front-end.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
+                                <p className="services__modal-info">Maintenance application</p>
                             </li>
 
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -108,8 +101,8 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">Desktop <br /> apps </h3>
+                    <i className="uil uil-database services__icon"></i>
+                    <h3 className="services__title">Create <br/>Databases</h3>
                 </div>
 
                 <span className="services__button" onClick={() => toggleTab(3)}>View more <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -118,35 +111,31 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                        <h3 className="services__modal-title">Desktop apps development 2</h3>
+                        <h3 className="services__modal-title">Create Databases</h3>
 
-                        <p className="services__modal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="services__modal-description">I develop the database data modeling and SQL Code.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface</p>
+                                <p className="services__modal-info">I develop the SQL Code of the Database.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development</p>
+                                <p className="services__modal-info">MER Model.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions</p>
+                                <p className="services__modal-info">DER Model.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
+                                <p className="services__modal-info">Data Dictionary.</p>
                             </li>
 
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
-                            </li>
                         </ul>
                     </div>
                 </div>
