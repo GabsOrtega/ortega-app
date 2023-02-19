@@ -21,8 +21,8 @@ const About = () => {
             focus on constant learning and teamwork, in order to
             contribute to the achievement of goals.</p>
 
-          <a download="" href={CV} className="button button--flex">
-            Download CV
+          <a href="https://ortega-cv.vercel.app" target="_blank" className="button button--flex">
+            View CV
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
