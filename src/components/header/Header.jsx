@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import "./header.css";
 
+
+
 const Header = () => {
+
     /*============= Change Background Header =============*/
     window.addEventListener("scroll", function() {
         const header = document.querySelector(".header");
@@ -55,6 +58,10 @@ const Header = () => {
                             <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-message nav__icon"></i> Contact
                             </a>
+                        </li>
+
+                        <li className="nav__item">
+                            <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
                         </li>
                     </ul>
 
