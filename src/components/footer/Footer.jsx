@@ -9,23 +9,19 @@ const Footer = () => {
 
                 <ul className="footer__list">
                     <li>
-                        <a href="#about" className="footer__link">About</a>
+                        <a href="#about" className="footer__link">Sobre</a>
                     </li>
 
                     <li>
-                        <a href="#services" className="footer__link">Services</a>
+                        <a href="#services" className="footer__link">Serviços</a>
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="footer__link">Portfolio</a>
+                        <a href="#portfolio" className="footer__link">Portifólio</a>
                     </li>
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/gabsortegz_/" className="footer__social-link" target="_blank">
-                        <i class="bx bxl-instagram"></i>
-                    </a>
-
                     <a href="https://www.linkedin.com/in/gabsortega/" className="footer__social-link" target="_blank">
                         <i class="bx bxl-linkedin"></i>
                     </a>

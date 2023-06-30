@@ -54,11 +54,11 @@ const Data = () => {
                   ></path>
         </svg> */}
         </h1>
-        <h3 className="home__subtitle">Back-end Developer</h3>
-        <p className="home__description">I'm back-end developer based in Brazil, and I'm very passionate and dedicated to my work.</p>
+        <h3 className="home__subtitle">Desenvolvedor Backend</h3>
+        <p className="home__description">Desenvolvedor com foco em backend nas linguagens PHP, Python e Node JS.</p>
 
         <a href="#contact" className="button button--flex">
-            Say Hello
+            Diga Oi!
             <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

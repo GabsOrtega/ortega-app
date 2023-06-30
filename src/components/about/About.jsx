@@ -7,8 +7,8 @@ import Info from './info';
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      <h2 className="section__title">Sobre mim</h2>
+      <span className="section__subtitle">Minha Introdução</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -16,13 +16,10 @@ const About = () => {
         <div className="about__data">
           <Info />
 
-          <p className="about__description">Professional with training in Systems Development and
-            Knowledge in Backend Programming. Dynamic and proactive profile, with
-            focus on constant learning and teamwork, in order to
-            contribute to the achievement of goals.</p>
+          <p className="about__description">Há quatro anos quando entrei para a área da tecnologia tenho me dedicado ao meu aperfeiçoamento pessoal quanto ao meu profissional. Participei de algumas competições de Startups que promoviam ações para ajudar a comunidade. Atualmente estou em busca de uma primeira oportunidade no mercado de trabalho.</p>
 
           <a href="https://ortega-cv.vercel.app" target="_blank" className="button button--flex">
-            View CV
+            Visualizar CV
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"

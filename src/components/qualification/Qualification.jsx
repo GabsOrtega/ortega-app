@@ -9,19 +9,19 @@ const Qualification = () => {
     };
   return (
     <section className="qualification section">
-        <h2 className="section__title">Qualification</h2>
-        <span className="section__subtitle">My personal journey</span>
+        <h2 className="section__title">Qualificação</h2>
+        <span className="section__subtitle">Minha jornada pessoal</span>
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
                 <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
                     <i className="uil uil-graduation-cap qualification__icon"></i>
-                    Education
+                    Educação
                 </div>
 
                 <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
                     <i className="uil uil-briefcase-alt qualification__icon"></i>
-                    Experience
+                    Experiência
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ const Qualification = () => {
                 <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Secondary Technical Education Systems Development </h3>
+                            <h3 className="qualification__title">Ensino Médio Integrado ao Técnico em Desenvolvimento de Sistemas</h3>
                             <span className="qualification__subtitle">ETEC Jardim Ângela</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calender-alt"></i> 2020 - 2022
@@ -51,10 +51,10 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Undergraduate Course - Computer Science</h3>
+                            <h3 className="qualification__title">Bacharelado - Ciência da Computação</h3>
                             <span className="qualification__subtitle">Universidade Cruzeiro do Sul</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i> 2023 - Present
+                                <i className="uil uil-calender-alt"></i> 2023 - Atualmente
                             </div>
                         </div>
                     </div>
@@ -97,10 +97,10 @@ const Qualification = () => {
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Professional Freelancer</h3>
+                            <h3 className="qualification__title">Desenvolvedor Freelancer</h3>
                             <span className="qualification__subtitle">Fiverr</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i> 2022 - Present
+                                <i className="uil uil-calender-alt"></i> 2022 - Atualmente
                             </div>
                         </div>
 

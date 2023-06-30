@@ -20,10 +20,10 @@ export const projectsData =  [
 
 export const projectsNav = [
     {
-        name: 'all',
+        name: 'Todos',
     },
     {
-        name: 'web',
+        name: 'Web',
     },
     // {
     //     name: 'app',
