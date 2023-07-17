@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css";
 import AboutImg from "../../assets/img/perfil.jpg";
-import CV from "../../assets/pdf/ortega_curriculo.pdf";
+import CV from "../../assets/pdf/Ortega_CV.pdf";
 import Info from './info';
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
 
           <p className="about__description">Há quatro anos quando entrei para a área da tecnologia tenho me dedicado ao meu aperfeiçoamento pessoal quanto ao meu profissional. Participei de algumas competições de Startups que promoviam ações para ajudar a comunidade. Atualmente estou em busca de uma primeira oportunidade no mercado de trabalho.</p>
 
-          <a href="https://ortega-cv.vercel.app" target="_blank" className="button button--flex">
+          <a href={CV} download="Ortega_CV" target="_blank" className="button button--flex">
             Visualizar CV
             <svg
               class="button__icon"
